@@ -1,0 +1,181 @@
+body{
+    font-family:"Montserrat-Black";
+}
+
+
+#title{
+    color: rgb(236, 246, 254);
+    background-color: #ff4c68;
+    
+}
+h1{
+   font-family: 'Montserrat-black', sans-serif;
+    line-height: 1.5;
+    size: 3rem;
+}
+.container-fluid{
+    padding: 4% 15% 7%;
+}
+.navbar-brand{
+    margin:0  0 20px;
+    font-size: 1.5rem;
+    
+    font-weight:lighter;
+    font-family: ubuntu;
+   
+}
+
+/* row */
+.row{
+   
+    padding-top: 5%;
+}
+/* button */
+.btn{
+ 
+    margin: 10% 0;
+
+}
+.nav-item{
+   margin:1% 8% 5% 2%;
+   position: relative;
+   right: 20%;
+}
+/* phone image */
+.image{
+    padding:0 20px;
+    position: absolute; 
+    
+    left: 20%;
+    
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/* nav links */
+.nav-link{
+   
+    margin-bottom: 30px;
+    text-decoration: underline rgb(245, 103, 217);
+
+}
+ /* features */
+ #features {
+     text-align:center;
+     padding: 7% 15%;
+     background-color: aliceblue;
+     position: relative;
+     z-index: 1;
+    
+ }
+
+ /* h3 */
+ .f1{
+   font-family: 'Montserrat-black', sans-serif;
+    font-size: 1.5rem;
+ }
+ /* below the h3 */
+ .sub{
+    color: #8f8f8f;
+ } 
+ /* image inside features */
+ .img-one{
+    font-weight: bold;
+    font-size: xx-large;
+    color:#ef8172;
+    margin-bottom: 1rem;
+ }
+ .img-one:hover{
+    color: #114c68;
+ }
+ /* testmoinals */
+ #testimonials{
+    color: azure;
+    text-align: center;
+    padding:7% 15%;
+    
+    font-family: 'Montserrat-black', sans-serif;
+    background-color: #ef8172;
+
+ }
+ .testi{
+    font-size: 2rem;
+    line-height: 1.5;
+    
+ }
+ .testi-imge{
+    border-radius: 100%;
+    width: 10%;
+    margin: 10px;
+ }
+ #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+
+ }
+ .press-imge{
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+ /* .carousel-item{
+    padding:7% 15%;
+
+ } */
+ /* pricing */
+ #pricing{
+   font-family: 'Montserrat-black', sans-serif;
+    padding: 7%;
+    text-align: center;
+ }
+ .pricing-tag{
+    padding: 1% 2%;
+     margin: 0;
+}
+@media (max-width:1028px)  {
+   .image{
+      transform:rotate(0);
+      position:static;
+   }
+   #title{
+      
+      text-align: center;
+   }
+}
+
+/* call to action */
+#cta{
+   margin-top: 0;
+   padding:4% 15%;
+   text-align: center;
+   background-color: #ff4c68;
+}
+.ctatext{
+    margin-top: 7px;
+    font-size: 2rem;
+    font-weight: bolder;
+   font-family: 'Montserrat', sans-serif;
+  color:  azure;  
+}
+.ctabutton:hover{
+   color: rgb(6, 74, 74);
+}
+.ctabutton{
+    margin: 5% 3% 5% 0;
+}
+.foot{
+   padding:3% 15%;
+
+   text-align: center;
+   background-color: #fff;
+}
+.cicon{
+   padding: 2% 1%;
+}
+.cicon:hover{
+   color: #8f8f8f ;
+}
+.pcopy{
+   color: #8f8f8f ;
+}
+
